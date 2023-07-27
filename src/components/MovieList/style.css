@@ -1,0 +1,62 @@
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* width: 40%; */
+    gap: 1%;
+}
+.images{
+    width: 90%;
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.search{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(41, 40, 40);
+}
+.searching{
+    padding: 0 500px 0 5px;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: solid white;
+    color: white;
+    background-color: black;
+}
+#movie{
+    color: yellow;
+}
+#movie1{
+    color: white;
+    
+}
+.home{
+    color: yellow;
+    text-decoration: underline;
+}
+.list{
+    color: white;
+}
+.sign{
+    border: none;
+    outline: none;
+    /* padding: 0 10px 0 12px; */
+    background-color: rgb(211, 185, 36);
+    border-radius: 20px;
+    color: white;
+    width: 5%;
+    /* height: 20%; */
+
+}
+.slider{
+    border: 2px solid red;
+}
+
